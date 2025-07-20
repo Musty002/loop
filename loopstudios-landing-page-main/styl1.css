@@ -1,0 +1,439 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.loop1 img:first-child{
+    display: none;
+    position: relative;
+   
+}
+.loop1 img:last-child{
+   width: 100%;
+   height: 50rem;
+  
+}
+
+.parent{
+  /* margin: auto; */
+   width: 100%;
+}
+.icon{
+   position: absolute;
+   top: 10%;
+  display: flex;
+  gap: 10rem;
+  margin-left: 3rem;
+}
+li{
+   display: none;
+}
+
+a{
+   color: white;
+}
+.icon2{
+   display: flex;
+}
+.icon img{
+   height: 2rem;
+}
+.icon2 img{
+   height: 1.5rem;
+   /* margin-top: 0.2rem; */
+} 
+.immersive{
+   width: 21rem;
+   border: 0.2rem solid white;
+   height: 15rem;
+   position: absolute;
+   top: 40%;
+   left: 9%;
+   color: white;
+  padding-left: 1rem;
+}
+.immersivein{
+   font-size: 3.1rem;
+   font-weight: 300;
+   line-height: 4.5rem;
+}
+.leader{
+   width: 100%;
+   height: 36rem;
+   /* border: 1px solid black; */
+   margin-top: 8rem;
+   padding: 0 2rem;
+}
+.image img:first-child{
+   display: none;
+}
+.image{
+   width: 100%;
+   height: 40%;
+}
+.image img{
+   width: 100%;
+   height: 100%;
+}
+.lead{
+   /* border: 1px solid black; */
+   text-align: center;
+   /* margin-top: 3rem; */
+}
+h1{
+   font-size: 3rem;
+   font-weight: 300;
+   text-align: center;
+}
+.found{
+   /* border: 1px solid black; */
+   padding: 1rem 3rem ;
+}
+.ourcreations{
+   width: 100%;
+   height: 95rem;
+   /* border: 1px solid black; */
+   padding: 0 2rem;
+}
+.item{
+   /* border: 1px solid black; */
+   display: grid;
+  display: flex;
+  flex-direction: column;
+  gap: 0rem;
+  /* height: 90rem; */
+}
+.item > div{
+   width: 100%;
+   height: 10rem;
+   /* border: 1px solid black; */
+   position: relative;
+   margin: 0;
+}
+.item img:last-child{
+   display: none;
+}
+.item img:first-child{
+   width: 100%;
+   height: 100%;
+}
+.internalwords{
+   position: absolute;
+   color: white;
+   top: 25%;
+   font-size: 2rem;
+   font-weight: 300;
+   left: 5%;
+   line-height: 2.3rem;
+}
+.seeall{
+   border: 2px solid black;
+   width: 14rem;
+   height: 3rem;
+   color: black;
+  padding-top: 0.3rem;
+   text-align: center;
+   margin: 2rem 0 0 6rem;
+}
+.seeall a{
+   color: black;
+   font-size: 1.5rem;
+   text-decoration: none;
+   font-weight: 400;
+   letter-spacing: 0.4rem;
+}
+.our{
+     font-size: 3rem;
+   font-weight: 300;
+   text-align: center;
+   margin-bottom: 0rem;
+}
+footer{
+   width: 100%;
+   height: 50rem;
+  position: relative;
+   background-color: black;
+}
+.items{
+   /* width: 15rem; */
+   height: 30rem;
+   /* border: 1px solid white; */
+   position: absolute;
+   top: 10%;
+   left: 30%;
+}
+.item1{
+   width: 15rem;
+   height: 3rem;
+}
+.item1 img{
+   width: 100%;
+   height: 100%;
+}
+.item2{
+  width: 15rem;
+  height: 20rem;
+
+ padding-left: 5rem;
+ margin-top: 3rem;
+}
+.item2 a{
+   color: white;
+   text-decoration: none;
+   font-size: 1.5rem;
+}
+.item2 li{
+   display: block;
+   margin: 2rem 0;
+}
+.items2{
+   width: 23rem;
+   height: 10rem;
+  /* border: 1px solid white; */
+  position: absolute;
+  top: 65%;
+  left: 10%;
+}
+.item3{
+   /* width: 100%; */
+   height: 3rem;
+   /* border: 1px solid white; */
+   margin-left: 3rem;
+}
+.item3 > img{
+   height: 100%;
+   margin: 0 0.5rem;
+}
+.item4{
+   color: white;
+   font-size: 1.28rem;
+   margin-top: 2rem;
+}
+@media screen and (min-width:768px){
+  .loop1 img:first-child{
+    width: 100%;
+    display: inline;
+   
+}
+.parent{
+   width: 100%;
+}
+.loop1 img:last-child{
+   display: none;
+  
+}
+li{
+   display: inline-block;
+   margin-left: 1rem;
+}
+a{
+   text-decoration: none;
+}
+.icon2 img{
+   display: none;
+}
+.icon{
+   gap: 30rem;
+   margin: 0 7rem;
+}
+.immersive{
+   width: 33.5rem;
+   border: 0.1rem solid white;
+   height: 18rem;
+   position: absolute;
+   top: 30%;
+   left: 8%;
+   color: white;
+   padding: 1.5rem;
+}
+.immersivein{
+   font-size: 4.5rem;
+   font-weight: 300;
+   line-height: 4.5rem;
+}
+.image img:first-child{
+   display: none;
+}
+.image img:last-child{
+   display: inline;
+}
+.leader{
+   width: 100%;
+   height: 39rem;
+   /* border: 1px solid black; */
+   margin-top: 8rem;
+   padding: 0 2rem;
+   display: flex;
+   position: relative;
+}
+.image{
+   width: 60%;
+   height: 30rem;
+   margin-left: 5rem;
+}
+.lead{
+   width: 38%;
+   /* border: 1px solid black; */
+   height: 22rem;
+  position: absolute;
+  top: 24%;
+  left: 52%;
+  background-color: white;
+  padding-top: 6.5rem;
+ 
+}
+.found{
+   padding: 0;
+}
+.yu{
+    font-size: 3rem;
+    line-height: 2.8rem;
+    /* border: 1px solid black; */
+    margin: 0 0 2rem 6rem;
+    text-align: left;
+}
+.found{
+   font-size: 0.9rem;
+   /* border: 1px solid black; */
+   margin-left: 6rem;
+   text-align: left;
+}
+.our{
+   text-align: left;
+}
+.item{
+   display: grid;
+   grid-template-columns: auto auto auto auto ;
+   grid-template-rows: auto auto;
+   padding-top: 2rem;
+}
+.item img:last-child{
+  display: block;
+    width: 100%;
+   height: 100%;
+}
+.item img:first-child{
+   display: none;
+}
+.seeall{
+display: none;
+}
+.item > div{
+   height: 30rem;
+   width: 16rem;
+   margin: 0rem 0 ;
+   position: relative;
+
+}
+.internalwords{
+   position: absolute;
+   top: 70%;
+   left: 10%;
+}
+.ourcreations{
+   height: 75rem;
+   width: 95%;
+   /* border: 1px solid black; */
+   position: relative;
+   padding: 0 0 0 7rem;
+}
+footer{
+   height: 10rem;
+   overflow: hidden;
+}
+.item2 li{
+   display: inline-block;
+ 
+   margin-right: 1rem;
+}
+.item2{
+   width: 40rem;
+   position: absolute;
+   top: 5%;
+   left: 1%;
+   padding: 0;
+   margin: 0;
+  
+}
+.seeall2{
+   border: 2px solid black;
+   width: 10rem;
+   height: 3rem;
+   color: black;
+  padding-top: 0.3rem;
+   text-align: center;
+  
+   margin-top: 1rem;
+}
+.yup{
+   display: flex;
+   justify-content: space-between;
+ padding-right: 1rem;
+}
+.seeall2 a{
+   color: black;
+}
+.items{
+   position: absolute;
+   left: 10%;
+   padding: 0;
+   margin: 0;
+}
+.item2 a{
+   font-size: 1rem;
+}
+.item1{
+   width: 10rem;
+   height: 2rem;
+}
+.items2{
+   width: 23rem;
+  /* border: 1px solid white; */
+  position: absolute;
+ top: 10%;
+  left: 70%;
+}
+.item3{
+   height: 2rem;
+   margin-left: 5rem;
+}
+.item4{
+   font-size: 1rem;
+  
+}
+}
+@media screen and (min-width:800px){
+ .icon{
+   gap: 14rem;
+   position: absolute;
+   top: 5%;
+}
+.immersive{
+   top: 10%;
+   height: 16rem;
+}
+.lead{
+   /* border: 1px solid black; */
+   height: 21rem;
+}
+.yu{
+   /* border: 1px solid black; */
+   font-size: 2rem;
+}
+.item > div{
+   height: 30rem;
+   width: 14rem;
+   margin: 0rem 0 ;
+   position: relative;
+
+}
+.ourcreations{
+   width: 93%;
+   height: 70rem;
+}
+.item{
+   gap: 2rem;
+   margin: 0;
+}
+}
