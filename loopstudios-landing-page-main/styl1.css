@@ -340,7 +340,8 @@ display: none;
 }
 footer{
    height: 10rem;
-   overflow: hidden;
+  
+  
 }
 .item2 li{
    display: inline-block;
@@ -403,7 +404,7 @@ footer{
   
 }
 }
-@media screen and (min-width:800px){
+ /* @media screen and (min-width:800px){
  .icon{
    gap: 14rem;
    position: absolute;
@@ -414,11 +415,11 @@ footer{
    height: 16rem;
 }
 .lead{
-   /* border: 1px solid black; */
+ 
    height: 21rem;
 }
 .yu{
-   /* border: 1px solid black; */
+ 
    font-size: 2rem;
 }
 .item > div{
@@ -436,4 +437,4 @@ footer{
    gap: 2rem;
    margin: 0;
 }
-}
+}  */
